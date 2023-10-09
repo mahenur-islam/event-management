@@ -18,10 +18,8 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
-
-<i>Write your explanation here</i>
-
+#### Answer: A
+<i>Here, the answer is A, that is an empty object. In this question, we declared a variable named "greeting" but we do not assigne any value. We assigne an empty object on another variable "greetign". In javacript, we can assign value on a variable without declaration the variable. </i>
 </p>
 </details>
 
@@ -43,10 +41,10 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
-
+<i>The code will returen a string "12". In javascript, it perform type coercion while adding a string data type and a number data type with a "+" operand. It treats the number as string so it performs concatenation instead of numeric addition</i>
+  
 </p>
 </details>
 
@@ -69,9 +67,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>Here, food is an array and info is an object. Modifying info doesn't affect food as they are different entities. </i>
 
 </p>
 </details>
@@ -94,9 +92,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>While calling the function sayHi() without passing the argument, the "name" parameter will be undefined. That's why it will return 'Hi there, undefined'</i>
 
 </p>
 </details>
@@ -122,9 +120,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: 3
 
-<i>Write your explanation here</i>
+<i>We know that, 0 is a falsy value and other number are truthy value in js. here, forEach iterate through the array nums. For every element of nums it first check the truty value of the element. If the value is truthy then it increase the value of the variable 'count' by 1. That is, the condition "if(num)" will be true if all elements excepts 0. So, for the number 1,2,3 the code increases the value of 'count' variable which result 3.</i>
 
 </p>
 </details>
